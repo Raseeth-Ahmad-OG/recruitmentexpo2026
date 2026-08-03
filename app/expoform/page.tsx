@@ -169,6 +169,10 @@ const ExpoForm = () => {
       className="mx-auto max-w-5xl rounded-2xl border border-white/10 bg-slate-900/70 p-8 shadow-2xl"
       onSubmit={handleSubmit}
     >
+      <div className="mb-6 text-center">
+        <h1 className="text-2xl font-semibold text-white">Recruitment Expo — Candidate Application</h1>
+        <p className="mt-1 text-sm text-slate-400">Please complete this form to submit your application for the Recruitment Expo.</p>
+      </div>
       <div className="space-y-12">
         <div className="border-b border-white/10 pb-12">
           <h2 className="text-base/7 font-semibold text-white">
