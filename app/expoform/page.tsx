@@ -163,7 +163,7 @@ const ExpoForm = () => {
       router.push("/dashboard");
     }
   };
-  console.log("expoform page rendered");
+  console.log("expoform page rendered here");
   return (
     <form
       className="mx-auto max-w-5xl rounded-2xl border border-white/10 bg-slate-900/70 p-8 shadow-2xl"
